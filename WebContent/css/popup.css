@@ -1,0 +1,49 @@
+@charset "ISO-8859-1";
+
+.containerpop{
+	height: auto;
+	align-items: center;
+	padding: 20px;
+	z-index: 1;
+	background-color:rgb(255, 255, 255);
+	border-radius: 20px;
+	font-size: 20px;
+	padding-bottom: 20px;
+width: max-content;
+	margin-top: 50px;
+}
+.closepop {
+        position: absolute;
+    right: -19px;
+    top: -26px;
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0.3;
+}
+.closepop:hover {
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0.9;
+}
+.containera{
+  padding: inherit;
+    width: auto;
+    text-align: center;
+}
+.tit{
+  font-size: 26px;
+    font-weight: revert;
+}
+.modal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: auto;
+    height: auto;
+    background-color: whitesmoke;
+    padding-top: 60px;
+}
